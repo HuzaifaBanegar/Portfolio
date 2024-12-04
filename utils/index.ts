@@ -23,8 +23,8 @@ export const reorderWorkProcesses = (
 ): WorkProcessSymbolType[] => {
   const desiredOrder = [
     "Definition",
-    "Design",
     "Planning",
+    "Design",
     "Development",
     "Deployment",
   ];

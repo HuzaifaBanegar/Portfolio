@@ -1,7 +1,7 @@
 {
   "/page": "app/page.js",
-  "/case-studies/page": "app/case-studies/page.js",
-  "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/contact/page": "app/contact/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
+  "/case-studies/[details]/page": "app/case-studies/[details]/page.js"
 }

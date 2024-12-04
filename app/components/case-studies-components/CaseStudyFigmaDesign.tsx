@@ -13,9 +13,7 @@ const CaseStudyFigmaDesign = () => {
   return (
     <>
       <section className="flex w-full flex-col items-center justify-center">
-        <div className="flex w-full items-center justify-center bg-primaryLight py-2.5 text-sm font-semibold text-white900 dark:bg-primaryDark md:py-9 md:text-[2rem]">
-          HIGH-FIDELITY FIGMA DESIGN
-        </div>
+        
         <div className="w-full">
           <Image
             src={figmaImage}
