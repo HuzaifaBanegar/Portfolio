@@ -16,7 +16,7 @@ const FooterLayout = ({ socialMediaIcons }: FooterLayoutProps) => {
       ${pathname === "/success-screen" && "hidden"}`}
     >
       <p className="text-lg text-black400 dark:text-white800">
-        © {new Date().getFullYear()} Glen. All rights reserved.
+        © {new Date().getFullYear()} Huzaifa. All rights reserved.
       </p>
       <div
         className={`mt-4 flex gap-6 lg:mt-0 ${

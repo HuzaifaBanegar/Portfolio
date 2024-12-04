@@ -26,7 +26,7 @@ const MyServices = ({ services }: MyServicesProps) => {
               What
             </p>
             <UnderlinedText
-              text="service"
+              text="services"
               additionalStyles="flex ml-2 md:ml-3 lg:mx-3"
             />
           </div>
