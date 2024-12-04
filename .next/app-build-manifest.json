@@ -21,23 +21,6 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/case-studies/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/case-studies/page.css",
-      "static/chunks/app/case-studies/page.js"
-    ],
-    "/case-studies/[details]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/case-studies/[details]/page.css",
-      "static/chunks/app/case-studies/[details]/page.js"
     ]
   }
 }
