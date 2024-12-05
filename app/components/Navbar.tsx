@@ -95,7 +95,7 @@ const Navbar = () => {
             </Link>
           ))}
           {/* Temporary href below so that the link works */}
-          <Link href="/" className="flex">
+          <Link href="https://drive.google.com/file/d/1Hb1sAp2hGF01V_cPxIWlohV-COzorvhn/view?usp=sharing" className="flex">
             <DownloadButton />
             <p className="text-sm text-black200 dark:text-white900">Resume</p>
           </Link>
