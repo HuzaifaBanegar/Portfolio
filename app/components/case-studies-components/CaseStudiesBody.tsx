@@ -24,7 +24,7 @@ const CaseStudiesBody = ({ caseStudies }: CaseStudiesShortenedProps) => {
           <CaseStudiesTitleText />
           <p className="mt-5 text-center text-sm text-white500 dark:text-white800 md:mt-6 md:text-xl">
             {
-              "Dive into my recent success stories and discover how I've helped clients overcome challenges, innovate, and achieve their goals."
+              "Dive into my recent success stories and discover how I've overcome challenges, innovate, and achieve my goals."
             }
           </p>
         </motion.div>

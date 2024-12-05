@@ -10,7 +10,32 @@ interface WorkExperienceProps {
   workExperienceList: WorkExperienceType[];
 }
 
+export const reorderWorkExperience = (
+  workExperienceList: WorkExperienceType[]
+): WorkExperienceType[] => {
+  const desiredOrder = [
+    "Botpresso",
+    "Masai"
+  ];
+  const desiredRole = [
+    "Associate SDE | IA", 
+    "Software Developer | IA Lead"
+  ];
+
+  return workExperienceList.sort((a, b) => {
+    // First, sort by desiredOrder
+    const orderDiff = desiredOrder.indexOf(b.title) - desiredOrder.indexOf(a.title);
+    if (orderDiff !== 0) {
+      return orderDiff; // If they are different, return the difference
+    }
+    
+    // If titles are the same, sort by desiredRole
+    return desiredRole.indexOf(b.position) - desiredRole.indexOf(a.position);
+  });
+};
+
 const WorkExperience = ({ workExperienceList }: WorkExperienceProps) => {
+  const sortedWorkExp = reorderWorkExperience(workExperienceList);
   return (
     <section className="flex w-full flex-col justify-center bg-white900 p-6 dark:bg-black200 md:px-20 md:py-[4.5rem] xl:flex-row">
       <div className="flex w-full max-w-7xl flex-col items-center xl:flex-row ">
@@ -58,7 +83,7 @@ const WorkExperience = ({ workExperienceList }: WorkExperienceProps) => {
         </motion.div>
 
         <div className="mt-4 flex w-full max-w-3xl flex-col gap-4 xl:ml-6 xl:mt-0 xl:w-1/2 xl:gap-7">
-          {workExperienceList.map((job, index) => (
+          {sortedWorkExp.map((job, index) => (
             <WorkExperienceCard key={job.title} job={job} delay={index * 0.2} />
           ))}
         </div>

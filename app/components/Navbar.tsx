@@ -62,7 +62,7 @@ const Navbar = () => {
               className="initial_background flex h-7 w-7 cursor-pointer items-center justify-center rounded-full md:h-9 md:w-9"
               onClick={handleCloseMobileNav}
             >
-              <p className="font-semibold text-white900 md:text-xl">H</p>
+              <p className="font-semibold text-white900 md:text-xl">HB</p>
             </div>
           </ScrollTarget>
         ) : (
@@ -71,7 +71,7 @@ const Navbar = () => {
             className="initial_background flex h-7 w-7 items-center justify-center rounded-full md:h-9 md:w-9"
             onClick={handleCloseMobileNav}
           >
-            <p className="font-semibold text-white900 md:text-xl">H</p>
+            <p className="font-semibold text-white900 md:text-xl">HB</p>
           </Link>
         )}
 
@@ -83,8 +83,8 @@ const Navbar = () => {
             <Link href={button.path} key={button.label}>
               <p
                 className={`text-sm ${
-                  (button.path === "/case-studies" &&
-                    pathname.startsWith("/case-studies")) ||
+                  (button.path === "/projects" &&
+                    pathname.startsWith("/projects")) ||
                   pathname === button.path
                     ? "font-semibold text-primaryLight dark:text-primaryDark"
                     : "text-white500 dark:text-white800"

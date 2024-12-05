@@ -58,12 +58,12 @@ const FeaturedProjects = ({ caseStudies }: FeaturedProjectsProps) => {
         viewport={{ once: true }}
         className="mb-0 mt-6 flex rounded-full lg:mb-14 lg:mt-12"
       >
-        <Link href="/case-studies" className="flex rounded-full">
+        <Link href="/projects" className="flex rounded-full">
           <Button
             style="blueButton"
             additionalStyles="gap-1.5 px-10 py-5 text-lg rounded-full"
           >
-            <p>See more case studies</p>
+            <p>See more Projects</p>
             <Image
               src={whiteButtonArrow}
               height={14}

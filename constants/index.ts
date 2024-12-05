@@ -4,8 +4,8 @@ export const navbarButtons = [
     path: "/",
   },
   {
-    label: "Case Studies",
-    path: "/case-studies",
+    label: "Projects",
+    path: "/projects",
   },
   {
     label: "Contact",
