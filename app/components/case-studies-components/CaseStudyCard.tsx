@@ -10,7 +10,7 @@ const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
   return (
     <Link
       key={caseStudy?.title}
-      href={`/case-studies/${caseStudy?.caseStudyLink}`}
+      href={`/projects/${caseStudy?.caseStudyLink}`}
     >
       <div className="flex flex-col">
         <div

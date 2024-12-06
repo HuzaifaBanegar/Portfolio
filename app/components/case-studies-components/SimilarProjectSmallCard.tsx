@@ -39,7 +39,7 @@ const SimilarProjectSmallCard = ({ caseStudy }: MainCaseStudyProps) => {
           </p>
         )}
         <Link
-          href={`/case-studies/${caseStudy.caseStudyLink}`}
+          href={`/projects/${caseStudy.caseStudyLink}`}
           className="mt-4 flex"
         >
           <motion.div whileHover={{ scale: 1.05 }} className="flex w-full">

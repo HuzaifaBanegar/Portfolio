@@ -35,7 +35,7 @@ const ProjectCardText = ({
         </div>
       </div>
       <Link
-        href={`/case-studies/${project?.caseStudyLink}`}
+        href={`/projects/${project?.caseStudyLink}`}
         className="mt-8 flex w-fit items-center gap-2"
       >
         <p className="text-lg font-semibold text-white900">
